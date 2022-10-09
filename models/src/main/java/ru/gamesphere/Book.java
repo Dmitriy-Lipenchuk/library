@@ -2,9 +2,7 @@ package ru.gamesphere;
 
 import lombok.*;
 
-@Setter
-@Getter
-@NoArgsConstructor
+@Data
 @AllArgsConstructor
 public class Book {
     int id;
